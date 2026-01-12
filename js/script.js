@@ -1,3 +1,10 @@
-console.log("This is my first console message");
-console.log("This is second line message");
-console.log("This is Third line message");
+const btn = document.querySelector('button');
+const bdy = document.body;
+
+btn.textContent="Click";
+
+btn.addEventListener('click',() => {
+    const div = document.createElement('div');
+    div.textContent = "Hello this is js div";
+    bdy.appendChild(div);
+})
