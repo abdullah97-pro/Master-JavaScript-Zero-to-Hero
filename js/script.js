@@ -1,14 +1,32 @@
-const btn = document.querySelector('button');
-const bdy = document.body;
+// var name = 14;
+// var name = "Fanaven";
 
-btn.textContent="Click";
+// name = "Abdullah";
 
-btn.addEventListener('click',() => {
-    const div = document.createElement('div');
-    const h1 = document.createElement('h1');
+// let x = 14;
+// // let x = 19;
+// x = 21;
+// {
+//     let x = 15;
+// }
 
-    h1.textContent = "This is my first heading by js";
+// let laptop = "Laptop";
+// laptop = "mini Laptop";
 
-    div.appendChild(h1);
-    bdy.appendChild(div);
-})
+// {
+//     let laptop = "Laptop";
+//     {
+// let laptop = "Laptop";
+// {
+// let laptop = "Laptop";
+
+// }
+//     }
+// }
+
+
+let x = 12;
+// let x = 15;
+x = 15;
+
+console.log(x);
