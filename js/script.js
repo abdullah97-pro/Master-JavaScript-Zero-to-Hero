@@ -33,5 +33,7 @@
 
 // hoisting
 
-console.log(x);
-var x;
+// console.log(x);
+// // let x = 12;
+// const x = 12;
+
