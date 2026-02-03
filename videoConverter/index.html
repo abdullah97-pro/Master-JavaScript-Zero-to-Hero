@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>JS Video Converter</title>
+</head>
+<body>
+  <!-- <input type="file" id="videoInput" accept="video/*">
+  <button id="convertBtn">Convert to MP4</button>
+  <p id="status"></p>
+
+  <video id="preview" controls style="width:400px; display:none;"></video> -->
+
+    <input type="file" id="videoInput" accept="video/*">
+    <button id="convertBtn">Convert to MP4</button>
+
+    <div style="margin-top:10px; width:400px;">
+    <div id="progressBar" style="
+        height: 20px;
+        width: 0%;
+        background: #4caf50;
+        transition: width 0.2s;
+    "></div>
+    </div>
+
+    <p id="progressText">0%</p>
+
+    <video id="preview" controls style="width:400px; display:none;"></video>
+
+
+  <script src="https://unpkg.com/@ffmpeg/ffmpeg@0.12.6/dist/ffmpeg.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
